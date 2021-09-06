@@ -1,3 +1,5 @@
+MARKING LATITUDE and LONGITUDE in google Map 
+
 Create a django project
 Update the API key using https://developers.google.com/maps/documentation/javascript/get-api-key
 Make sure to give your API-Key in settings.py and templetes(index.html) instead of "YOURAPIKEY"
