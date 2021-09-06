@@ -1,0 +1,46 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+  
+  <head>
+      
+    <title>Lat/Lng Object Literal</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- jsFiddle will insert css and js -->
+  </head>
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+           #map {
+      height: 100%;
+    }
+    
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+      </style>
+      <script src="{%static 'js/google-map.js'%}"></script>
+ 
+  <body>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    
+  </body>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap&libraries=&v=weekly&channel=2"
+      async
+    >
+// In this example, we center the map, and add a marker, using a LatLng object
+// literal instead of a google.maps.LatLng object. LatLng object literals are
+// a convenient way to add a LatLng coordinate and, in most cases, can be used
+// in place of a google.maps.LatLng object.
+
+
+</script>
+</html>
